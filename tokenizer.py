@@ -20,4 +20,7 @@ preprocessed = result
 all_words = sorted(set(preprocessed))
 vocab_size = len(all_words)
 
-print(vocab_size)
+print(len(vocab_size))
+
+vocab = {token:integer for integer,token in enumerate(all_words)}
+print(vocab)
